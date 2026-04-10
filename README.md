@@ -62,4 +62,3 @@ O projeto conta com um workflow no GitHub Actions configurado no arquivo ci.yml.
 - Verificação de Linting (Flake8). 
 - Execução de Testes Automatizados (Pytest).
 
-
