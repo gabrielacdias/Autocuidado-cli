@@ -8,7 +8,7 @@
 Atualmente, devido ao cotidiano muito movimentado e corrido, é comum que as pessoas esqueçam de se hidratar e de realizar atividades de autocuidado, o que prejudica diariamente a vida desses indivíduos.
 
 ## Proposta de solução
-Assim, por meio de um checklist simples e direto via terminal (CLI), é disponibilizado para usuários listar metas de autocuidado e hidratação, como "beber 2l litros de água" ou "meditação", de modo que consigam melhorar os hábitos diários, organizando a rotinas, e assim, melhorar a saúde e o bem-estar.
+Assim, por meio de um checklist simples e direto via terminal (CLI), é disponibilizado para usuários listar metas de autocuidado e hidratação, como "beber 2l litros de água" ou "meditação", de modo que consigam melhorar os hábitos diários, organizando a rotina, e assim, melhorar a saúde e o bem-estar.
 
 ## Funcionalidades principais
 - Registrar metas para autocuidado.
