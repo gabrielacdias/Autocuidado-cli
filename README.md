@@ -61,8 +61,3 @@ O projeto conta com um workflow no GitHub Actions configurado no arquivo ci.yml.
 - Instalação de dependências. 
 - Verificação de Linting (Flake8). 
 - Execução de Testes Automatizados (Pytest).
-    ```
-3.  **Verifique o GitHub:** Entre no seu link do GitHub e veja se o texto aparece bonito na página inicial do repositório.
-
-**Agora você tem tudo!** A aplicação funciona, os testes passam, o Lint está config
-
