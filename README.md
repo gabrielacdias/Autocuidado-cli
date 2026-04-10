@@ -61,12 +61,6 @@ O projeto conta com um workflow no GitHub Actions configurado no arquivo ci.yml.
 - Instalação de dependências. 
 - Verificação de Linting (Flake8). 
 - Execução de Testes Automatizados (Pytest).
-
-**Envie as mudanças:** No terminal do PyCharm, faça o commit e push final:
-    ```bash
-    git add README.md
-    git commit -m "docs: finaliza documentação detalhada no README"
-    git push
     ```
 3.  **Verifique o GitHub:** Entre no seu link do GitHub e veja se o texto aparece bonito na página inicial do repositório.
 
