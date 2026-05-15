@@ -1,4 +1,6 @@
 # 🌿 CLI Autocuidado & Hidratação
+> 🚀 **Link do Deploy (Release Oficial v2.0.0):** [Acesse a Versão Intermediária Aqui](https://github.com/gabrielacdias/Autocuidado-cli/releases/tag/v2.0.0)
+> 📌 **Issue Vinculada:** Resolve a demanda documentada na Issue #2.
 
 **Versão:** 1.0.0
 **Autor:** Gabriela Costa Dias
@@ -72,3 +74,19 @@ O projeto conta com um workflow no GitHub Actions configurado no arquivo ci.yml.
 
 **Agora você tem tudo!** A aplicação funciona, os testes passam, o Lint está config
 
+## 🎯 Sobre o Projeto (Etapa Intermediária)
+Esta é a evolução da ferramenta CLI de Autocuidado. Agora, a aplicação conecta-se à internet para buscar frases motivacionais diárias, agregando valor à rotina de cuidados do usuário.
+
+### 🛠️ Novas Funcionalidades Implementadas:
+* **Consumo de API Pública:** Integração com a API *ZenQuotes* para fornecimento de citações.
+* **Tradução Automática:** Uso da biblioteca `deep-translator` para exibir as frases totalmente em português.
+* **Qualidade de Software:** Criação de testes de integração automatizados (`test_app.py`) com `unittest`.
+
+### 💻 Como Instalar e Rodar o Deploy localmente:
+1. Faça o download do código-fonte na aba de [Releases](https://github.com/gabrielacdias/Autocuidado-cli/releases/tag/v2.0.0).
+2. Instale as dependências executando no terminal:
+   ```bash
+   pip install requests deep-translator
+3. Execute o programa:
+    ```bash
+   python app.py
