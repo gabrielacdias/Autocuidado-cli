@@ -1,4 +1,25 @@
+import requests
+from deep_translator import GoogleTranslator
 import sys
+def buscar_frase_autocuidado():
+    try:
+        # Busca a frase em inglês na API
+        resposta = requests.get("https://zenquotes.io/api/random")
+
+        if resposta.status_code == 200:
+            dados = resposta.json()
+            frase_ingles = dados[0]['q']
+            autor = dados[0]['a']
+
+            # 👇 ESSA LINHA FAZ A MÁGICA: Traduz de inglês (en) para português (pt)
+            frase_pt = GoogleTranslator(source='en', target='pt').translate(frase_ingles)
+
+            # Printa a frase já traduzida!
+            print(f"\n✨ Frase de Autocuidado do Dia: \"{frase_pt}\" — {autor}\n")
+        else:
+            print("\n✨ Continue cuidando de você hoje!")
+    except:
+        print("\n✨ Continue cuidando de você hoje! (Sem conexão com a internet)")
 
 class AutocuidadoManager:
     def __init__(self):
@@ -25,6 +46,8 @@ class AutocuidadoManager:
 
 def menu():
     manager = AutocuidadoManager()
+
+    buscar_frase_autocuidado()
 
     print("\n--- 🌿 CLI Autocuidado & Hidratação 🌿 ---")
     print("Versão 1.0.0")
