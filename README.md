@@ -64,16 +64,6 @@ O projeto conta com um workflow no GitHub Actions configurado no arquivo ci.yml.
 - Verificação de Linting (Flake8). 
 - Execução de Testes Automatizados (Pytest).
 
-**Envie as mudanças:** No terminal do PyCharm, faça o commit e push final:
-    ```bash
-    git add README.md
-    git commit -m "docs: finaliza documentação detalhada no README"
-    git push
-    ```
-3.  **Verifique o GitHub:** Entre no seu link do GitHub e veja se o texto aparece bonito na página inicial do repositório.
-
-**Agora você tem tudo!** A aplicação funciona, os testes passam, o Lint está config
-
 ## 🎯 Sobre o Projeto (Etapa Intermediária)
 Esta é a evolução da ferramenta CLI de Autocuidado. Agora, a aplicação conecta-se à internet para buscar frases motivacionais diárias, agregando valor à rotina de cuidados do usuário.
 
